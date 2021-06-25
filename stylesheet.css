@@ -1,0 +1,285 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body{
+  font-size: 1.6rem;
+}
+
+#navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 3rem;
+    position: relative;
+    z-index: 2;
+    background: #111;
+  }
+  .logo {
+    display: flex;
+    color: #fff;
+    font-size: 4.5rem;
+  }
+  .line1{
+    height: 0.5rem;
+    background: orange;
+    width: 6.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  ul {
+    display: flex;
+    margin-top: 0.6rem;
+  }
+  
+  ul li {
+    margin-right: 1.5rem;
+    list-style: none;
+    font-size: 1.5rem;
+    color: #fff;
+  }
+  #unique1 {
+    margin-right: 4rem;
+  }
+  
+  #unique2 {
+    margin-left: 6rem;
+  }
+
+  /*----------- the restaurant ----------*/
+
+  .main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5rem 0;
+  }
+  .reviews {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0;
+  }
+  
+  .reviews p {
+    text-align: center;
+    margin: auto;
+  }
+  
+  .reviews h1 {
+    text-align: center;
+    color: orange;
+    font-family: sans-serif;
+    padding-bottom: 1rem;
+    letter-spacing: 0.1rem;
+  }
+
+  /*---------- accomplishments ----------*/
+  .menu {
+    width: 100%;
+    height: auto;
+    background: url("images/tomas-jasovsky-d5SZqLkpIrY-unsplash.jpg") no-repeat
+      center center/cover;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 5rem 0;
+  }
+  
+  .menus {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    z-index: 3;
+  }
+
+  .menu_block {
+    flex: 1 1 20rem;
+    margin: 2rem;
+    position: relative;
+    background:rgb(46, 45, 45);
+  }
+
+  .menu_block img{
+      width: 100%;
+      height: 18rem;
+      object-fit: cover ;
+      padding: 0.8rem;
+  }
+
+  .info{
+      text-align: center;
+      padding: 1.5rem;
+  }
+
+  .info p{
+    text-align: left;
+    margin-bottom: 0.8rem;
+  }
+
+  .info h2{
+      margin-bottom: 1rem;
+      color: orange;
+      font-family: sans-serif;
+      font-weight: 500;
+  }
+  
+
+  /*------ story --------*/
+  
+  .story_block {
+    flex: 1 1 20rem;
+    margin: 2rem;
+    position: relative;
+    text-align: center;
+    padding: 3rem 0;
+  }
+
+ h1{
+      color: orange;
+      font-family: sans-serif;
+      font-weight: 500;
+      z-index: 3;
+  }
+
+  /*------- chefs --------*/
+
+  .chef {
+    width: 100%;
+    height: auto;
+    background:url("images/michael-browning-MtqG1lWcUw0-unsplash.jpg") no-repeat
+    center center/cover;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+    padding: 4rem 0;
+    position: relative;
+    }
+
+    .chef::before{
+      content: '';
+        background: #0000008a;
+        width: 100%;
+        position: absolute;
+        top: 0px;
+        bottom: 0px;
+        left: 0px;
+        right: 0px;
+        z-index: 1;
+        opacity: 0.7;
+    }
+
+  .chefs {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    z-index: 3;
+  }
+
+  /* changed */
+  .chef_block {
+    flex: 1 1 25rem;
+    position: relative;
+    
+  }
+
+  /* changed */
+  .chef_block img{
+    width: 100%;
+    height: 28rem;
+    object-fit: cover ;
+    padding: 0.8rem;
+    
+}
+.para{
+  position: absolute;
+  top: 25%;
+  left: 20%;
+  right: 20%;
+  bottom: 29%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-weight: bolder;
+
+}
+
+.info{
+    text-align: center;
+    padding: 0.8rem;
+    background: linear-gradient(180deg, transparent, rgba(0, 0, 0, .5), #111);
+}
+
+
+
+
+/*------- Customer Reviews --------*/
+
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 3rem 0;
+}
+.reviews {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 0;
+}
+
+.reviews p {
+  text-align: center;
+  margin: auto;
+}
+
+.reviews h1 {
+  text-align: center;
+  color: orange;
+  font-family: sans-serif;
+  padding-bottom: 1rem;
+}
+
+.line2 {
+  background: #111;
+  height: 0.2rem;
+  width: 5.5rem;
+  margin: 1rem 0;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem 0;
+  background: #111;
+  color: #fff;
+}
+  
+@media (max-width: 76.8rem) {
+  .menu {
+    height: auto;
+  }
+
+  .chef {
+    height: auto;
+  }
+}
